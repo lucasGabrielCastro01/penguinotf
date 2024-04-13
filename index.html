@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>penguin.outfitters</title>
+  <style>
+    .imagem {
+      width: 12.5rem;
+      height: 12.5rem;
+      transition: transform 0.3s ease;
+    }
+
+    .imagem:hover {
+      transform: scale(1.1);
+    }
+
+    body {
+      font-family: Arial;
+      margin: 0;
+      padding: 0;
+      background-color: white;
+    }
+
+    header {
+      background-color: #03458D;
+      color: #fff;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    header img {
+      margin-right: 10px;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    header a {
+      margin-left: 1100px;
+    }
+
+    footer {
+      background-color: #03458D;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .search-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .search-box {
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      width: 300px;
+    }
+
+    .search-button {
+      padding: 10px;
+      background-color: #03458D;
+      color: #fff;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    main {
+      display: flex;
+      justify-content: center;
+
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    main .imagem {
+      margin: 50px;
+    }
+
+    aside {
+      margin-left: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <img src="pastalucas/imagemongui.png" alt="Logo do Meu Site" width="70rem">
+    <h1>Penguin.Outfitters</h1>
+    <a href="entrar.html" style="color: white">Entrar</a>
+  </header>
+
+  <div class="search-container">
+    <input type="text" class="search-box" placeholder="O que você está procurando?">
+    <button class="search-button">Buscar</button>
+  </div>
+
+  <aside>
+    <h2 style="font-size: 20px">Seção de roupa</h2>
+    <p><a href="casaco.html" style="color:black ">casaco</a></p>
+    <p><a href="cachecol.html" style="color:black ">cachecol</a></p>
+    <p><a href="bobojaco.html" style="color:black ">bobojaco</a></p>
+    <p><a href="moletom.html" style="color:black ">moletom</a></p>
+  </aside>
+
+  <main>
+    <figure>
+      <a href="bobojaco.html">
+        <img class="imagem" src="pastalucas/bobojaco.jpg" />
+        <figcaption>bobojaco lacoste </figcaption>
+      </a>
+    </figure>
+    <figure>
+      <a href="cachecol.html">
+        <img class="imagem" src="pastalucas/cachecol.jpg" />
+        <figcaption>Cachecol lacoste</figcaption>
+      </a>
+    </figure>
+    <figure>
+      <a href="jaqueta.wepb">
+        <img class="imagem" src="pastalucas/jaqueta (1).webp" />
+        <figcaption>Jaqueta lacoste </figcaption>
+      </a>
+    </figure>
+    <figure>
+      <a href="moletom.html">
+        <img class="imagem" src="pastalucas/moletom.jpg" />
+        <figcaption>moletom lacoste</figcaption>
+      </a>
+    </figure>
+</main>
+  <footer>
+    <p>© 2024 outfitterspenguin.com</p>
+  </footer>
+
+</body>
+
+</html>
